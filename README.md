@@ -10,7 +10,7 @@ Start another terminal, view the blockchain:
 Mine queued transactions:  
 `curl http://localhost:5000/mine`  
   
-POST transaction:
+POST transaction:  
 `curl -X POST -H "Content-Type: application/json" -d '{"sender": "04d0988bfa799f7d7ef9ab3de97ef481", "recipient": "cd0f75d2367ad456607647edde665d6f", "amount": 5}' "http://localhost:5000/transactions/new"`  
 
 
